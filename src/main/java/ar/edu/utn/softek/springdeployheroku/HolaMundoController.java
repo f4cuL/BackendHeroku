@@ -21,6 +21,7 @@ public class HolaMundoController {
 
     @GetMapping("/algo")
     public List<Algo> algo(){
+    	
         return repo.findAll();
     }
 
